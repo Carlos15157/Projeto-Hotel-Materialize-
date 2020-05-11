@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="img/logo2.png" alt="Hotel Piemonte" class="logo" />
+      </h1>
+
+      <!-- barra de navegação do site-->
+      <nav>
+        <div class="nav-wrapper purple darken-4" style="text-align: left;">
+          <a href="index.html" class="brand-logo">Hotel Piemonte</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+          
+        </div>
+      </nav>
+      <!--fim da barra de navegação-->
+
+      <!--inicio do painel-->
+      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" style="height: 300px;"/>
+    </header>
+
+    <main>
+      <main>
+        <h2>Gastronomia</h2>
+        <h3>Conheça nossos Pratos </h3>
+        <hr />
+        <p>
+          <span
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+            eius laboriosam tempore nisi molestias, doloremque, a quos, sunt illo
+            maiores eum ipsum? Voluptatem ad obcaecati cumque rerum quia, minima
+            quaerat.</span
+          >
+          <span
+            >Ad ipsam deleniti aperiam fugit, sequi minus, quasi vel saepe
+            blanditiis tenetur asperiores commodi cum et? Numquam iure aliquid,
+            temporibus aspernatur porro expedita sint, voluptatem dignissimos non
+            aperiam est molestias?</span
+          >
+          <span
+            >Sunt nam eum minus doloribus voluptate. Minus aperiam voluptate iste?
+            Similique minus, nihil quae facere non maxime, tempore incidunt ab
+            ipsam expedita reiciendis obcaecati consequuntur necessitatibus in,
+            voluptate officia perferendis?</span
+          >
+        </p>
+  
+        <hr />
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/gastronomia3.jpg" class="modal-trigger" href="#modal3" style="height: 200px;" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    doloremque fugiat, aliquid quam veniam quibusdam? Optio vero
+                    reiciendis ea eaque beatae reprehenderit. Ex quo voluptatum
+                    eos reprehenderit perspiciatis, architecto quisquam?
+                  </p>
+                </div>                  
+              </div>
+            </div>
+          </div>
+  
+          <div class="col s12 m6">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="img/gastronomia4.jpg" class="modal-trigger" href="#modal4" style="height: 200px;" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                    doloremque fugiat, aliquid quam veniam quibusdam? Optio vero
+                    reiciendis ea eaque beatae reprehenderit. Ex quo voluptatum
+                    eos reprehenderit perspiciatis, architecto quisquam?
+                  </p>
+                </div>                  
+              </div>
+            </div>
+          </div>
+        </div>
+
+          
+    </main>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <img src="img/gastronomia1.jpg" />
+      </div>
+    </div>
+
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <img src="img/gastronomia2.jpg" />
+        </div>
+      </div>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".modal").modal();
+      });
+    </script>
+  </body>
+</html>
